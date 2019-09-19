@@ -1,0 +1,24 @@
+{
+  "type": "object",
+  "properties": {
+    "title": {
+      "title": "Title",
+      "description": "Full title",
+      "type": "string"
+    },
+    "alias": {
+      "title": "Alias",
+      "description": "Short title. To be shown in graph",
+      "type": "string"
+    },
+    "status": {
+      "title": "Status",
+      "description": "Status",
+      "type": "string",
+      "enum": [
+          "read",
+          null
+      ]
+    }
+  }
+}
